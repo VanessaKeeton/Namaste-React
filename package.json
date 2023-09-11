@@ -1,5 +1,5 @@
 {
-  "name": "y",
+  "name": "fun",
   "version": "1.0.0",
   "description": "a react tut",
   "main": "app.js",
@@ -10,5 +10,8 @@
     "react"
   ],
   "author": "Vanessa Keeton",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
 }
