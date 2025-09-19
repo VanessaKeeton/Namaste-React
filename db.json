@@ -1,0 +1,224 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Spice Symphony",
+      "cuisines": ["Indian", "Vegetarian"],
+      "rating": 4.5,
+      "waitTime": "25-30 min",
+      "image": {
+        "alt": "Indian curry and naan bread",
+        "url": "https://picsum.photos/seed/indian1/200/150"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Pasta Palace",
+      "cuisines": ["Italian", "Pizza"],
+      "rating": 4.2,
+      "waitTime": "30-35 min",
+      "image": {
+        "alt": "Italian pasta with sauce",
+        "url": "https://picsum.photos/seed/italian2/200/150"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Dragon Wok",
+      "cuisines": ["Chinese", "Asian Fusion"],
+      "rating": 4.0,
+      "waitTime": "20-25 min",
+      "image": {
+        "alt": "Chinese noodles in wok",
+        "url": "https://picsum.photos/seed/chinese3/200/150"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Sushi Express",
+      "cuisines": ["Japanese", "Sushi"],
+      "rating": 4.7,
+      "waitTime": "15-20 min",
+      "image": {
+        "alt": "Sushi rolls with chopsticks",
+        "url": "https://picsum.photos/seed/sushi4/200/150"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Burger Barn",
+      "cuisines": ["American", "Burgers"],
+      "rating": 3.9,
+      "waitTime": "35-40 min",
+      "image": {
+        "alt": "Cheeseburger with fries",
+        "url": "https://picsum.photos/seed/burger5/200/150"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Taco Haven",
+      "cuisines": ["Mexican", "Street Food"],
+      "rating": 4.3,
+      "waitTime": "25-30 min",
+      "image": {
+        "alt": "Tacos with salsa",
+        "url": "https://picsum.photos/seed/taco6/200/150"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Mediterraneo",
+      "cuisines": ["Mediterranean", "Greek"],
+      "rating": 4.6,
+      "waitTime": "20-25 min",
+      "image": {
+        "alt": "Greek salad with olives",
+        "url": "https://picsum.photos/seed/med7/200/150"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Curry House",
+      "cuisines": ["Thai", "Indian"],
+      "rating": 4.1,
+      "waitTime": "30-40 min",
+      "image": {
+        "alt": "Thai curry with rice",
+        "url": "https://picsum.photos/seed/curry8/200/150"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Falafel Factory",
+      "cuisines": ["Middle Eastern", "Vegetarian"],
+      "rating": 4.4,
+      "waitTime": "15-25 min",
+      "image": {
+        "alt": "Falafel wrap with tahini",
+        "url": "https://picsum.photos/seed/falafel9/200/150"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Seaside Grill",
+      "cuisines": ["Seafood", "American"],
+      "rating": 4.0,
+      "waitTime": "40-50 min",
+      "image": {
+        "alt": "Grilled fish with lemon",
+        "url": "https://picsum.photos/seed/seafood10/200/150"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Pho Noodle",
+      "cuisines": ["Vietnamese", "Soup"],
+      "rating": 4.5,
+      "waitTime": "20-25 min",
+      "image": {
+        "alt": "Vietnamese pho soup",
+        "url": "https://picsum.photos/seed/pho11/200/150"
+      }
+    },
+    {
+      "id": 12,
+      "name": "BBQ Pit Stop",
+      "cuisines": ["Barbecue", "American"],
+      "rating": 4.2,
+      "waitTime": "30-45 min",
+      "image": {
+        "alt": "Barbecue ribs with sauce",
+        "url": "https://picsum.photos/seed/bbq12/200/150"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Veggie Delight",
+      "cuisines": ["Healthy", "Vegan"],
+      "rating": 4.8,
+      "waitTime": "15-20 min",
+      "image": {
+        "alt": "Vegan Buddha bowl",
+        "url": "https://picsum.photos/seed/vegan13/200/150"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Pizza Hub",
+      "cuisines": ["Italian", "Pizza"],
+      "rating": 3.8,
+      "waitTime": "25-30 min",
+      "image": {
+        "alt": "Pepperoni pizza",
+        "url": "https://picsum.photos/seed/pizza14/200/150"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Noodle House",
+      "cuisines": ["Asian", "Fusion"],
+      "rating": 4.3,
+      "waitTime": "20-30 min",
+      "image": {
+        "alt": "Stir fried noodles",
+        "url": "https://picsum.photos/seed/noodle15/200/150"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Café Bonjour",
+      "cuisines": ["French", "Bakery"],
+      "rating": 4.6,
+      "waitTime": "15-25 min",
+      "image": {
+        "alt": "Croissant and coffee",
+        "url": "https://picsum.photos/seed/french16/200/150"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Spicy Ramen",
+      "cuisines": ["Japanese", "Noodles"],
+      "rating": 4.1,
+      "waitTime": "25-35 min",
+      "image": {
+        "alt": "Bowl of spicy ramen",
+        "url": "https://picsum.photos/seed/ramen17/200/150"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Kebab King",
+      "cuisines": ["Turkish", "Grill"],
+      "rating": 4.0,
+      "waitTime": "30-40 min",
+      "image": {
+        "alt": "Grilled kebabs with salad",
+        "url": "https://picsum.photos/seed/kebab18/200/150"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Urban Diner",
+      "cuisines": ["American", "Fast Food"],
+      "rating": 3.7,
+      "waitTime": "20-25 min",
+      "image": {
+        "alt": "Diner burger and fries",
+        "url": "https://picsum.photos/seed/diner19/200/150"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Café Rio",
+      "cuisines": ["Mexican", "Tex-Mex"],
+      "rating": 4.2,
+      "waitTime": "25-30 min",
+      "image": {
+        "alt": "Burrito with salsa",
+        "url": "https://picsum.photos/seed/mex20/200/150"
+      }
+    }
+  ]
+}
