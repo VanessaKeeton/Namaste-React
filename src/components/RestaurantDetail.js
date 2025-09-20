@@ -4,7 +4,7 @@ const RestaurantDetail = () => {
   const { resId } = useParams();
   const [details, setDetails] = useState({});
 
-  const { name = "", cuisines = "", waitTime = "", image = {}, menu = [] } = details;
+  const { name = "", cuisines = [], waitTime = "", image = {}, menu = [] } = details;
   const { alt: imgAlt, url: imgUrl } = image;
 
   const fetchData = async () => {
