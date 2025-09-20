@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import RestaurantCard from "./RestaurantCard";
 import FilterRestaurants from "./FilterRestaurants";
+import { Link } from "react-router-dom";
 
 const Content = () => {
   // using json-server for mock data api: json-server --watch db.json --port 4000
@@ -48,7 +49,9 @@ const Content = () => {
       <FilterRestaurants onSearch={searchRestaurants} onFilterTopRated={filterTopRated} onFilterReset={resetData}/>
       <div className="restaurants-list">
         {restaurants.map((restaurant) => (
-          <RestaurantCard key={restaurant.id} data={restaurant} />
+          <Link to={`/restaurant/${restaurant.id}`} key={restaurant.id}>
+            <RestaurantCard data={restaurant} />
+        </Link>
         ))}
       </div>
     </div>

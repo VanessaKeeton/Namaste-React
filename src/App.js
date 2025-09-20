@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import ContactUs from "./components/ContactUs";
 import AboutUs from "./components/AboutUs";
 import RouterError from "./components/RouterError"
+import RestaurantDetail from "./components/RestaurantDetail";
 
 const AppLayout = () => (
   <div className="app">
@@ -34,6 +35,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/about-us",
         element: <AboutUs />,
+      },
+      {
+        path: "/restaurant/:resId",
+        element: <RestaurantDetail />
       }
     ],
   },

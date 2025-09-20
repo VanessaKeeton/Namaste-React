@@ -9,7 +9,15 @@
       "image": {
         "alt": "Indian curry and naan bread",
         "url": "https://picsum.photos/seed/indian1/200/150"
-      }
+      },
+      "menu": [
+        { "id": 1, "name": "Paneer Tikka", "price": 9.99 },
+        { "id": 2, "name": "Butter Chicken", "price": 12.49 },
+        { "id": 3, "name": "Garlic Naan", "price": 3.99 },
+        { "id": 4, "name": "Vegetable Biryani", "price": 10.99 },
+        { "id": 5, "name": "Masala Chai", "price": 2.99 },
+        { "id": 6, "name": "Samosa Platter", "price": 6.49 }
+      ]
     },
     {
       "id": 2,
@@ -20,7 +28,14 @@
       "image": {
         "alt": "Italian pasta with sauce",
         "url": "https://picsum.photos/seed/italian2/200/150"
-      }
+      },
+      "menu": [
+        { "id": 1, "name": "Spaghetti Carbonara", "price": 11.99 },
+        { "id": 2, "name": "Margherita Pizza", "price": 13.49 },
+        { "id": 3, "name": "Fettuccine Alfredo", "price": 12.99 },
+        { "id": 4, "name": "Bruschetta", "price": 7.49 },
+        { "id": 5, "name": "Tiramisu", "price": 6.99 }
+      ]
     },
     {
       "id": 3,
@@ -31,7 +46,15 @@
       "image": {
         "alt": "Chinese noodles in wok",
         "url": "https://picsum.photos/seed/chinese3/200/150"
-      }
+      },
+      "menu": [
+        { "id": 1, "name": "Kung Pao Chicken", "price": 11.49 },
+        { "id": 2, "name": "Sweet and Sour Pork", "price": 10.99 },
+        { "id": 3, "name": "Fried Rice", "price": 8.99 },
+        { "id": 4, "name": "Vegetable Spring Rolls", "price": 5.49 },
+        { "id": 5, "name": "Hot and Sour Soup", "price": 4.99 },
+        { "id": 6, "name": "Mongolian Beef", "price": 12.49 }
+      ]
     },
     {
       "id": 4,
@@ -42,7 +65,14 @@
       "image": {
         "alt": "Sushi rolls with chopsticks",
         "url": "https://picsum.photos/seed/sushi4/200/150"
-      }
+      },
+      "menu": [
+        { "id": 1, "name": "California Roll", "price": 7.99 },
+        { "id": 2, "name": "Spicy Tuna Roll", "price": 8.99 },
+        { "id": 3, "name": "Salmon Sashimi", "price": 9.99 },
+        { "id": 4, "name": "Tempura Udon", "price": 11.49 },
+        { "id": 5, "name": "Miso Soup", "price": 2.99 }
+      ]
     },
     {
       "id": 5,
@@ -53,7 +83,14 @@
       "image": {
         "alt": "Cheeseburger with fries",
         "url": "https://picsum.photos/seed/burger5/200/150"
-      }
+      },
+      "menu": [
+        { "id": 1, "name": "Classic Cheeseburger", "price": 9.49 },
+        { "id": 2, "name": "Bacon Double Burger", "price": 11.99 },
+        { "id": 3, "name": "Veggie Burger", "price": 8.99 },
+        { "id": 4, "name": "Loaded Fries", "price": 5.99 },
+        { "id": 5, "name": "Milkshake", "price": 4.99 }
+      ]
     },
     {
       "id": 6,
@@ -64,7 +101,14 @@
       "image": {
         "alt": "Tacos with salsa",
         "url": "https://picsum.photos/seed/taco6/200/150"
-      }
+      },
+      "menu": [
+        { "id": 1, "name": "Chicken Tacos", "price": 8.49 },
+        { "id": 2, "name": "Beef Burrito", "price": 9.99 },
+        { "id": 3, "name": "Nachos Supreme", "price": 7.99 },
+        { "id": 4, "name": "Quesadilla", "price": 8.99 },
+        { "id": 5, "name": "Churros", "price": 4.49 }
+      ]
     },
     {
       "id": 7,
@@ -75,7 +119,14 @@
       "image": {
         "alt": "Greek salad with olives",
         "url": "https://picsum.photos/seed/med7/200/150"
-      }
+      },
+      "menu": [
+        { "id": 1, "name": "Greek Salad", "price": 7.49 },
+        { "id": 2, "name": "Chicken Souvlaki", "price": 11.49 },
+        { "id": 3, "name": "Moussaka", "price": 12.99 },
+        { "id": 4, "name": "Spanakopita", "price": 6.49 },
+        { "id": 5, "name": "Baklava", "price": 5.99 }
+      ]
     },
     {
       "id": 8,
@@ -86,7 +137,14 @@
       "image": {
         "alt": "Thai curry with rice",
         "url": "https://picsum.photos/seed/curry8/200/150"
-      }
+      },
+      "menu": [
+        { "id": 1, "name": "Green Curry", "price": 10.99 },
+        { "id": 2, "name": "Pad Thai", "price": 11.49 },
+        { "id": 3, "name": "Tom Yum Soup", "price": 5.99 },
+        { "id": 4, "name": "Chicken Satay", "price": 8.49 },
+        { "id": 5, "name": "Mango Sticky Rice", "price": 6.49 }
+      ]
     },
     {
       "id": 9,
@@ -97,7 +155,14 @@
       "image": {
         "alt": "Falafel wrap with tahini",
         "url": "https://picsum.photos/seed/falafel9/200/150"
-      }
+      },
+      "menu": [
+        { "id": 1, "name": "Falafel Wrap", "price": 8.49 },
+        { "id": 2, "name": "Hummus Plate", "price": 6.99 },
+        { "id": 3, "name": "Shawarma Bowl", "price": 10.99 },
+        { "id": 4, "name": "Stuffed Grape Leaves", "price": 5.49 },
+        { "id": 5, "name": "Baklava", "price": 4.99 }
+      ]
     },
     {
       "id": 10,
@@ -108,7 +173,14 @@
       "image": {
         "alt": "Grilled fish with lemon",
         "url": "https://picsum.photos/seed/seafood10/200/150"
-      }
+      },
+      "menu": [
+        { "id": 1, "name": "Grilled Salmon", "price": 14.99 },
+        { "id": 2, "name": "Fish Tacos", "price": 12.49 },
+        { "id": 3, "name": "Clam Chowder", "price": 7.99 },
+        { "id": 4, "name": "Shrimp Scampi", "price": 13.99 },
+        { "id": 5, "name": "Lobster Roll", "price": 18.99 }
+      ]
     },
     {
       "id": 11,
@@ -119,7 +191,14 @@
       "image": {
         "alt": "Vietnamese pho soup",
         "url": "https://picsum.photos/seed/pho11/200/150"
-      }
+      },
+      "menu": [
+        { "id": 1, "name": "Beef Pho", "price": 10.99 },
+        { "id": 2, "name": "Chicken Pho", "price": 9.99 },
+        { "id": 3, "name": "Spring Rolls", "price": 6.49 },
+        { "id": 4, "name": "Banh Mi Sandwich", "price": 8.99 },
+        { "id": 5, "name": "Iced Coffee", "price": 3.99 }
+      ]
     },
     {
       "id": 12,
@@ -130,7 +209,14 @@
       "image": {
         "alt": "Barbecue ribs with sauce",
         "url": "https://picsum.photos/seed/bbq12/200/150"
-      }
+      },
+      "menu": [
+        { "id": 1, "name": "Pulled Pork Sandwich", "price": 9.99 },
+        { "id": 2, "name": "BBQ Ribs", "price": 14.49 },
+        { "id": 3, "name": "Coleslaw", "price": 3.99 },
+        { "id": 4, "name": "Baked Beans", "price": 4.49 },
+        { "id": 5, "name": "Cornbread", "price": 2.99 }
+      ]
     },
     {
       "id": 13,
@@ -141,7 +227,14 @@
       "image": {
         "alt": "Vegan Buddha bowl",
         "url": "https://picsum.photos/seed/vegan13/200/150"
-      }
+      },
+      "menu": [
+        { "id": 1, "name": "Buddha Bowl", "price": 10.49 },
+        { "id": 2, "name": "Quinoa Salad", "price": 8.99 },
+        { "id": 3, "name": "Vegan Burger", "price": 9.49 },
+        { "id": 4, "name": "Lentil Soup", "price": 6.49 },
+        { "id": 5, "name": "Avocado Toast", "price": 5.99 }
+      ]
     },
     {
       "id": 14,
@@ -152,7 +245,14 @@
       "image": {
         "alt": "Pepperoni pizza",
         "url": "https://picsum.photos/seed/pizza14/200/150"
-      }
+      },
+      "menu": [
+        { "id": 1, "name": "Pepperoni Pizza", "price": 11.99 },
+        { "id": 2, "name": "Four Cheese Pizza", "price": 12.49 },
+        { "id": 3, "name": "Garlic Knots", "price": 4.99 },
+        { "id": 4, "name": "Caesar Salad", "price": 6.49 },
+        { "id": 5, "name": "Cannoli", "price": 5.49 }
+      ]
     },
     {
       "id": 15,
@@ -163,7 +263,14 @@
       "image": {
         "alt": "Stir fried noodles",
         "url": "https://picsum.photos/seed/noodle15/200/150"
-      }
+      },
+      "menu": [
+        { "id": 1, "name": "Lo Mein", "price": 9.99 },
+        { "id": 2, "name": "Pad See Ew", "price": 10.49 },
+        { "id": 3, "name": "Spicy Ramen", "price": 11.99 },
+        { "id": 4, "name": "Dumplings", "price": 7.49 },
+        { "id": 5, "name": "Thai Iced Tea", "price": 3.99 }
+      ]
     },
     {
       "id": 16,
@@ -174,7 +281,14 @@
       "image": {
         "alt": "Croissant and coffee",
         "url": "https://picsum.photos/seed/french16/200/150"
-      }
+      },
+      "menu": [
+        { "id": 1, "name": "Croissant", "price": 3.49 },
+        { "id": 2, "name": "Quiche Lorraine", "price": 8.49 },
+        { "id": 3, "name": "French Onion Soup", "price": 7.99 },
+        { "id": 4, "name": "Crème Brûlée", "price": 6.99 },
+        { "id": 5, "name": "Café au Lait", "price": 2.99 }
+      ]
     },
     {
       "id": 17,
@@ -185,7 +299,14 @@
       "image": {
         "alt": "Bowl of spicy ramen",
         "url": "https://picsum.photos/seed/ramen17/200/150"
-      }
+      },
+      "menu": [
+        { "id": 1, "name": "Shoyu Ramen", "price": 10.99 },
+        { "id": 2, "name": "Miso Ramen", "price": 11.49 },
+        { "id": 3, "name": "Tonkotsu Ramen", "price": 12.49 },
+        { "id": 4, "name": "Gyoza", "price": 6.49 },
+        { "id": 5, "name": "Matcha Ice Cream", "price": 4.49 }
+      ]
     },
     {
       "id": 18,
@@ -196,7 +317,14 @@
       "image": {
         "alt": "Grilled kebabs with salad",
         "url": "https://picsum.photos/seed/kebab18/200/150"
-      }
+      },
+      "menu": [
+        { "id": 1, "name": "Chicken Kebab", "price": 11.49 },
+        { "id": 2, "name": "Lamb Doner", "price": 12.99 },
+        { "id": 3, "name": "Pide Bread", "price": 3.99 },
+        { "id": 4, "name": "Baklava", "price": 5.49 },
+        { "id": 5, "name": "Ayran Yogurt Drink", "price": 2.99 }
+      ]
     },
     {
       "id": 19,
@@ -207,7 +335,14 @@
       "image": {
         "alt": "Diner burger and fries",
         "url": "https://picsum.photos/seed/diner19/200/150"
-      }
+      },
+      "menu": [
+        { "id": 1, "name": "Pancake Stack", "price": 7.99 },
+        { "id": 2, "name": "Club Sandwich", "price": 9.49 },
+        { "id": 3, "name": "Cheeseburger", "price": 8.99 },
+        { "id": 4, "name": "Milkshake", "price": 4.99 },
+        { "id": 5, "name": "Apple Pie", "price": 5.49 }
+      ]
     },
     {
       "id": 20,
@@ -218,7 +353,14 @@
       "image": {
         "alt": "Burrito with salsa",
         "url": "https://picsum.photos/seed/mex20/200/150"
-      }
+      },
+      "menu": [
+        { "id": 1, "name": "Carne Asada Burrito", "price": 10.99 },
+        { "id": 2, "name": "Chicken Enchiladas", "price": 11.49 },
+        { "id": 3, "name": "Queso Dip with Chips", "price": 6.49 },
+        { "id": 4, "name": "Fish Tacos", "price": 9.99 },
+        { "id": 5, "name": "Sopapillas", "price": 4.99 }
+      ]
     }
   ]
 }
