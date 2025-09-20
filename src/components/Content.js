@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 import RestaurantCard from "./RestaurantCard";
+import FilterRestaurants from "./FilterRestaurants";
 
 const Content = () => {
   // using json-server for mock data api: json-server --watch db.json --port 4000
   const [restaurants, setRestaurants] = useState([]);
   const [unfilteredRestaurants, setUnfilteredRestaurants] = useState([]);
-  const [searchText, setSearchText] = useState([]);
   const [loading, setLoading] = useState(false);
 
   const fetchAndSetData = async () => {
@@ -21,13 +21,13 @@ const Content = () => {
     fetchAndSetData();
   }, []);
 
-  const topRatedFilter = () => {
+  const filterTopRated = () => {
     const restaurantsFiltered = restaurants.filter((restaurant) => restaurant.rating >= 4.6);
 
     setRestaurants(restaurantsFiltered);
   };
 
-  const searchRestaurants = () => {
+  const searchRestaurants = (searchText) => {
     const filteredList = unfilteredRestaurants.filter(
       (rest) =>
         rest.name.toLowerCase().includes(searchText.toLowerCase()) ||
@@ -45,18 +45,7 @@ const Content = () => {
 
   return (
     <div className="content">
-      <div className="filter">
-        <input type="text" value={searchText} onChange={(e) => setSearchText(e.target.value)} />
-        <button type="button" className="filter__button" onClick={searchRestaurants}>
-          Search
-        </button>
-        <button type="button" className="filter__button" onClick={topRatedFilter}>
-          Top Rated Restaurants
-        </button>
-        <button type="button" className="filter__button" onClick={resetData}>
-          Clear Filter
-        </button>
-      </div>
+      <FilterRestaurants onSearch={searchRestaurants} onFilterTopRated={filterTopRated} onFilterReset={resetData}/>
       <div className="restaurants-list">
         {restaurants.map((restaurant) => (
           <RestaurantCard key={restaurant.id} data={restaurant} />
