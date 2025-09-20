@@ -4,8 +4,9 @@
   "description": "a react tut",
   "scripts": {
     "test": "jest",
-    "dev": "npx parcel index.html",
-    "dev:mock": "json-server --watch db.json --port 4000",
+    "start": "parcel index.html",
+    "api": "json-server --watch db.json --port 4000",
+    "dev": "concurrently --kill-others --names \"API,WEB\" -c \"cyan,magenta\" \"npm run api\" \"npm run start\" && echo \"👋 Shutting down servers...\"",
     "build": "npx parcel build index.html"
   },
   "keywords": [
@@ -14,6 +15,7 @@
   "author": "Vanessa Keeton",
   "license": "ISC",
   "devDependencies": {
+    "concurrently": "^9.2.1",
     "parcel": "^2.9.3",
     "process": "^0.11.10"
   },
