@@ -10,8 +10,8 @@ const RestaurantCard = (props) => {
     <div className="food-image">
       <img
         className="image"
-        alt={image.alt}
-        src={image.url}
+        alt={image?.alt}
+        src={image?.url}
       />
     </div>
   </div>

@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "a react tut",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev": "npx parcel index.html",
+    "dev:mock": "json-server --watch db.json --port 4000",
+    "build": "npx parcel build index.html"
   },
   "keywords": [
     "react"
