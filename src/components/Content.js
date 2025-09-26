@@ -4,7 +4,6 @@ import FilterRestaurants from "./FilterRestaurants";
 import { Link } from "react-router-dom";
 
 const Content = () => {
-  // using json-server for mock data api: json-server --watch db.json --port 4000
   const [restaurants, setRestaurants] = useState([]);
   const [unfilteredRestaurants, setUnfilteredRestaurants] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -32,7 +31,8 @@ const Content = () => {
     const filteredList = unfilteredRestaurants.filter(
       (rest) =>
         rest.name.toLowerCase().includes(searchText.toLowerCase()) ||
-        rest.cuisines.some((cuisine) => cuisine.toLowerCase().includes(searchText.toLowerCase()))
+        rest.cuisines.some((cuisine) => cuisine.toLowerCase().includes(searchText.toLowerCase())
+      )
     );
 
     setRestaurants(filteredList);

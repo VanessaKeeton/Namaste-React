@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import useOnlineStatus from "./utils/useOnlineStatus";
 
 import Header from "./components/Header";
 import Content from "./components/Content";
@@ -10,14 +11,15 @@ import AboutUs from "./components/AboutUs";
 import RouterError from "./components/RouterError"
 import RestaurantDetail from "./components/RestaurantDetail";
 
-const AppLayout = () => (
-  <div className="app">
-    <Header />
-    <Outlet />
-    <Footer />
-  </div>
-)
-
+const AppLayout = () => {
+  return (
+    <div className="app">
+      <Header />
+      {useOnlineStatus() ? <Outlet /> : <div>It appears you are offline. Please check your internet status.</div>}
+      <Footer />
+    </div>
+  )
+}
 const appRouter = createBrowserRouter([
   {
     path: "/",
