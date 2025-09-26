@@ -1,21 +1,13 @@
-import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import useFetchRestaurantById from '../utils/useFetchRestaurantById';
+
 const RestaurantDetail = () => {
   const { resId } = useParams();
-  const [details, setDetails] = useState({});
 
-  const { name = "", cuisines = [], waitTime = "", image = {}, menu = [] } = details;
-  const { alt: imgAlt = "", url: imgUrl = "" } = image;
+  const { details, error } = useFetchRestaurantById(resId);
+  const { name, waitTime, cuisines, imageAlt, imageUrl, menu } = details;
 
-  const fetchData = async () => {
-    const res = await fetch(`http://localhost:4000/restaurants/${resId}`);
-    const data = await res.json();
-    setDetails(data);
-  };
-
-  useEffect(() => {
-    fetchData();
-  }, []);
+  if (error) return (<h1>Oops! There was an error loading this restaurant.</h1>)
 
   return (
     <section className="restaurant-detail">
@@ -24,7 +16,7 @@ const RestaurantDetail = () => {
         Wait time: {waitTime} | Cuisines: {cuisines.join(", ")}
       </p>
       <div className="food-image">
-        <img className="image" alt={imgAlt} src={imgUrl} />
+        <img className="image" alt={imageAlt} src={imageUrl} />
       </div>
       <section>
         <h2>Menu</h2>
