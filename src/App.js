@@ -1,22 +1,26 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import useOnlineStatus from "./utils/useOnlineStatus";
 
-import Header from "./components/Header";
-import Content from "./components/Content";
-import Footer from "./components/Footer";
-import ContactUs from "./components/ContactUs";
-import AboutUs from "./components/AboutUs";
-import RouterError from "./components/RouterError"
-import RestaurantDetail from "./components/RestaurantDetail";
+const Header = lazy(() => import("./components/Header"));
+const Content = lazy(() => import("./components/Content"));
+const Footer = lazy(() => import("./components/Footer"));
+const ContactUs = lazy(() => import("./components/ContactUs"));
+const AboutUs = lazy(() => import("./components/AboutUs"));
+const RouterError = lazy(() => import("./components/RouterError"));
+const RestaurantDetail = lazy(() => import("./components/RestaurantDetail"))
 
 const AppLayout = () => {
   return (
     <div className="app">
-      <Header />
-      {useOnlineStatus() ? <Outlet /> : <div>It appears you are offline. Please check your internet status.</div>}
-      <Footer />
+        <Header />
+        {
+          useOnlineStatus()
+          ? <Outlet />
+          : <div>It appears you are offline. Please check your internet status.</div>
+        }
+        <Footer />
     </div>
   )
 }
@@ -28,19 +32,19 @@ const appRouter = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Content />
+        element: <Suspense fallback={<div>Loading...</div>}><Content /></Suspense>
       },
       {
         path: "/contact-us",
-        element: <ContactUs />,
+        element: <Suspense fallback={<div>Loading...</div>}><ContactUs /></Suspense>,
       },
       {
         path: "/about-us",
-        element: <AboutUs />,
+        element: <Suspense fallback={<div>Loading...</div>}><AboutUs /></Suspense>,
       },
       {
         path: "/restaurant/:resId",
-        element: <RestaurantDetail />
+        element: <Suspense fallback={<div>Loading...</div>}><RestaurantDetail /></Suspense>
       }
     ],
   },
