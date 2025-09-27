@@ -8,6 +8,10 @@ const Content = () => {
   const [unfilteredRestaurants, setUnfilteredRestaurants] = useState([]);
   const [loading, setLoading] = useState(false);
 
+  const restaurantListClasses = () => {
+    return "restaurants-list mt-4 grid gap-2 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 2xl:grid-cols-8";
+  }
+
   const fetchAndSetData = async () => {
     setLoading(true)
     const res = await fetch("http://localhost:4000/restaurants");
@@ -45,11 +49,16 @@ const Content = () => {
   }
 
   return (
-    <div className="content">
+    <div className="content mt-2">
       <FilterRestaurants onSearch={searchRestaurants} onFilterTopRated={filterTopRated} onFilterReset={resetData}/>
-      <div className="restaurants-list">
+      <div className={restaurantListClasses()}>
         {restaurants.map((restaurant) => (
-          <Link to={`/restaurant/${restaurant.id}`} key={restaurant.id}>
+          <Link 
+            className="
+            "
+            to={`/restaurant/${restaurant.id}`}
+            key={restaurant.id}
+          >
             <RestaurantCard data={restaurant} />
         </Link>
         ))}

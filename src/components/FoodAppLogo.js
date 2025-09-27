@@ -3,7 +3,7 @@ const FoodAppLogo = () => (
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 80 80"
     fill="none"
-    className="logo"
+    className="logo w-full"
   >
   <circle cx="40" cy="40" r="30" stroke="#FF5722" strokeWidth="6" fill="none" />
   <path d="M25 20 C20 30, 20 50, 25 55" stroke="#4CAF50" strokeWidth="5" strokeLinecap="round" />

@@ -13,7 +13,7 @@ const RestaurantDetail = lazy(() => import("./components/RestaurantDetail"))
 
 const AppLayout = () => {
   return (
-    <div className="app">
+    <div className="app m-8">
         <Header />
         {
           useOnlineStatus()
