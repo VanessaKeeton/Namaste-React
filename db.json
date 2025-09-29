@@ -10,6 +10,7 @@
         "alt": "Indian curry and naan bread",
         "url": "https://picsum.photos/seed/indian1/200/150"
       },
+      "promoted": true,
       "menu": [
         { "id": 1, "name": "Paneer Tikka", "price": 9.99 },
         { "id": 2, "name": "Butter Chicken", "price": 12.49 },
@@ -29,6 +30,7 @@
         "alt": "Italian pasta with sauce",
         "url": "https://picsum.photos/seed/italian2/200/150"
       },
+      "promoted": true,
       "menu": [
         { "id": 1, "name": "Spaghetti Carbonara", "price": 11.99 },
         { "id": 2, "name": "Margherita Pizza", "price": 13.49 },
@@ -47,6 +49,7 @@
         "alt": "Chinese noodles in wok",
         "url": "https://picsum.photos/seed/chinese3/200/150"
       },
+      "promoted": false,
       "menu": [
         { "id": 1, "name": "Kung Pao Chicken", "price": 11.49 },
         { "id": 2, "name": "Sweet and Sour Pork", "price": 10.99 },
@@ -102,6 +105,7 @@
         "alt": "Tacos with salsa",
         "url": "https://picsum.photos/seed/taco6/200/150"
       },
+      "promoted": false,
       "menu": [
         { "id": 1, "name": "Chicken Tacos", "price": 8.49 },
         { "id": 2, "name": "Beef Burrito", "price": 9.99 },
@@ -192,6 +196,7 @@
         "alt": "Vietnamese pho soup",
         "url": "https://picsum.photos/seed/pho11/200/150"
       },
+      "promoted": false,
       "menu": [
         { "id": 1, "name": "Beef Pho", "price": 10.99 },
         { "id": 2, "name": "Chicken Pho", "price": 9.99 },
@@ -246,6 +251,7 @@
         "alt": "Pepperoni pizza",
         "url": "https://picsum.photos/seed/pizza14/200/150"
       },
+      "promoted": false,
       "menu": [
         { "id": 1, "name": "Pepperoni Pizza", "price": 11.99 },
         { "id": 2, "name": "Four Cheese Pizza", "price": 12.49 },
@@ -332,6 +338,7 @@
       "cuisines": ["American", "Fast Food"],
       "rating": 3.7,
       "waitTime": "20-25 min",
+      "promoted": false,
       "image": {
         "alt": "Diner burger and fries",
         "url": "https://picsum.photos/seed/diner19/200/150"
@@ -350,6 +357,7 @@
       "cuisines": ["Mexican", "Tex-Mex"],
       "rating": 4.2,
       "waitTime": "25-30 min",
+      "promoted": true,
       "image": {
         "alt": "Burrito with salsa",
         "url": "https://picsum.photos/seed/mex20/200/150"
