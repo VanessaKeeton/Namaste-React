@@ -2,9 +2,11 @@ import FoodAppLogo from "./FoodAppLogo";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import UserContext from "../utils/UserContext";
+import { useSelector } from "react-redux";
 
 const Header = () => {
   const { loggedInUser } = useContext(UserContext);
+  const cartItems = useSelector((store) => store.cart.items);
 
   return (
     <div className="
@@ -24,7 +26,7 @@ const Header = () => {
           <li className="nav-item px-8 py-4"><Link to="/">Home</Link></li>
           <li className="nav-item px-8 py-4"><Link to="/about-us">About Us</Link></li>
           <li className="nav-item px-8 py-4"><Link to="/contact-us">Contact Us</Link></li>
-          <li className="nav-item px-8 py-4">Cart</li>
+          <li className="nav-item px-8 py-4"><Link to="/cart">Cart ({cartItems.length} items)</Link></li>
           <li className="nav-item px-8 py-4">{loggedInUser}</li>
         </ul>
       </div>

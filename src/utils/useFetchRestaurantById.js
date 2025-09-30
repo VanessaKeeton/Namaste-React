@@ -4,6 +4,7 @@ import normalizeRestaurantDetails from './normalizeRestaurantDetails';
 
 const useFetchRestaurantById = (resId) => {
   const [details, setDetails] = useState({
+    id: -1,
     name: "",
     cuisines: [],
     waitTime: "",
